@@ -69,7 +69,6 @@ public class DataBase extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getReadableDatabase();
         return db.compileStatement("SELECT COUNT(*) FROM " + table).simpleQueryForLong();
     }
-    @SuppressLint("Range")
     public List<Scores> getAllScores(String table) {
         List<Scores> scoresList = new ArrayList<>();
         SQLiteDatabase db = this.getReadableDatabase();
