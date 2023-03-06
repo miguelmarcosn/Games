@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="GameCellView">
+        <item name="android:background">#FFF8DC</item> <!-- Fondo crema -->
+        <item name="android:layout_width">@dimen/game_cell_size</item> <!-- Ancho de celda definido en dimens.xml -->
+        <item name="android:layout_height">@dimen/game_cell_size</item> <!-- Alto de celda definido en dimens.xml -->
+        <item name="android:layout_margin">8dp</item> <!-- Margen entre celdas -->
+        <item name="android:padding">4dp</item> <!-- Padding interno de la celda -->
+        <item name="android:foreground">@drawable/border</item> <!-- Borde de celda definido en drawable/border.xml -->
+    </style>
+
+    <style name="RecyclerViewStyle" >
+        <item name="android:background">@color/beige</item> <!-- Fondo verde -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Letras blancas -->
+    </style>
+
+
+
+
+
+</resources>

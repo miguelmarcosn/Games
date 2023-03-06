@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="cell_value" type="id" />
+    <item name="game_cell" type="id"/>
+</resources>
